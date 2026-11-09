@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ThunderPack.Core/ThunderPack.Core.csproj" />
+    <Project Path="src/ThunderPack.App/ThunderPack.App.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ThunderPack.Smoke/ThunderPack.Smoke.csproj" />
+    <Project Path="tests/ThunderPack.UiSmoke/ThunderPack.UiSmoke.csproj" />
+    <Project Path="tests/ThunderPack.RealCheck/ThunderPack.RealCheck.csproj" />
+  </Folder>
+</Solution>

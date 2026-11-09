@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ThunderPack</AssemblyName>
+    <RootNamespace>ThunderPack.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/ThunderPack.ico</ApplicationIcon>
+    <Version>1.1.0</Version>
+    <Description>Thunderstore Mod 整合包制作工具</Description>
+    <Authors>ThunderPack</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ThunderPack.Core/ThunderPack.Core.csproj" />
+    <Resource Include="Assets/pack-icon.png" />
+  </ItemGroup>
+</Project>
